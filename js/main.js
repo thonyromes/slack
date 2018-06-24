@@ -43,13 +43,13 @@ function init() {
   //show sidebar nav
   showSideNav.addEventListener("click", function() {
     resSideNav.classList.replace("dn", "db");
-    slideOverflow.classList.add("overflow-hidden");
+    // slideOverflow.classList.add("overflow-hidden");
   });
 
   //hide sidebar nav
   hideSideNav.addEventListener("click", function() {
     resSideNav.classList.replace("db", "dn");
-    slideOverflow.classList.remove("overflow-hidden");
+    // slideOverflow.classList.remove("overflow-hidden");
   });
 
   //preclose all answer p tags
