@@ -1,0 +1,96 @@
+
+ header {
+    position: sticky;
+    top: 0;
+    animation: slide-down 500ms cubic-bezier(.165,.84,.44,1);
+}
+
+#resSideNav {
+    animation: slide-in 500ms cubic-bezier(.165,.84,.44,1);
+}
+
+.accAnswer {
+    animation: slide-up 500ms cubic-bezier(.165,.84,.44,1);
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        transform: translateX(100%);
+    }
+    
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+
+.bottom-4 {
+    bottom: 4rem;
+}
+
+.langActive {
+    background-color: #f2f2f2;
+}
+
+.bg-vio {
+    background-color: rgb(63, 70, 173);
+}
+
+.vio {
+    color: rgb(63, 70, 173);
+}
+
+.top-12 {
+    top:12rem;
+}
+
+.w-0 {
+    width: 0;
+}
+
+#resSideNav {
+    transition: width 0.3s linear;
+}
+
+.picSlides li {
+    flex: 0 0 25%;
+}
+
+.priceBoxShadow {
+    box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.10);
+}
+
+.officeBoxShadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.tabActive {
+    border-bottom: 3px goldenrod solid;
+}
+
+.tabActive ~ div:hover {
+    border-bottom: 3px #e1e1e1 solid;
+    transition: border 0.1s linear;
+
+}
+
+
