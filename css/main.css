@@ -1,6 +1,6 @@
 
  header {
-    position: sticky;
+    position: fixed;
     top: 0;
     animation: slide-down 500ms cubic-bezier(.165,.84,.44,1);
 }
