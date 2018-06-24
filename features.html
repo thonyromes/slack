@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Features | Slack</title>
+    <link id="favicon" rel="shortcut icon" href="img/favicon-32.png" sizes="16x16 32x32 48x48" type="image/png">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/tachyons.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="w-100" id="slideOverflow">
+    <main class="w-100 bg-white">
+        <!-- main header -->
+        <header class="w-100 bb b--black-10 z-3 bg-white" id="slideHeader">
+            <div class="w-100 ph2 ph4-m ph5-l cf">
+                <div class="dtc-l v-mid w-50 w-70-ns w-10-l fl">
+                    <a href="index.html" class="link black-80">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="50 0 576 270" width="125" aria-label="Slack" class="w4" shape-rendering="geometricPrecision">
+                            <path fill="#ECB32D" d="M141.8 87.1c-1.9-5.7-8-8.8-13.7-7-5.7 1.9-8.8 8-7 13.7l28.1 86.4c1.9 5.3 7.7 8.3 13.2 6.7 5.8-1.7 9.3-7.8 7.4-13.4 0-.2-28-86.4-28-86.4z"></path>
+                            <path fill="#63C1A0" d="M98.3 101.2c-1.9-5.7-8-8.8-13.7-7-5.7 1.9-8.8 8-7 13.7l28.1 86.4c1.9 5.3 7.7 8.3 13.2 6.7 5.8-1.7 9.3-7.8 7.4-13.4 0-.2-28-86.4-28-86.4z"></path>
+                            <path fill="#E01A59" d="M177.2 158.6c5.7-1.9 8.8-8 7-13.7-1.9-5.7-8-8.8-13.7-7L84 166.1c-5.3 1.9-8.3 7.7-6.7 13.2 1.7 5.8 7.8 9.3 13.4 7.4.2 0 86.5-28.1 86.5-28.1z"></path>
+                            <path fill="#331433" d="M102 183.1c5.6-1.8 12.9-4.2 20.7-6.7-1.8-5.6-4.2-12.9-6.7-20.7l-20.7 6.7 6.7 20.7z"></path>
+                            <path fill="#D62027" d="M145.6 168.9c7.8-2.5 15.1-4.9 20.7-6.7-1.8-5.6-4.2-12.9-6.7-20.7l-20.7 6.7 6.7 20.7z"></path>
+                            <path fill="#89D3DF" d="M163 115.1c5.7-1.9 8.8-8 7-13.7-1.9-5.7-8-8.8-13.7-7l-86.4 28.1c-5.3 1.9-8.3 7.7-6.7 13.2 1.7 5.8 7.8 9.3 13.4 7.4.2 0 86.4-28 86.4-28z"></path>
+                            <path fill="#258B74" d="M87.9 139.5c5.6-1.8 12.9-4.2 20.7-6.7-2.5-7.8-4.9-15.1-6.7-20.7l-20.7 6.7 6.7 20.7z"></path>
+                            <path fill="#819C3C" d="M131.4 125.4c7.8-2.5 15.1-4.9 20.7-6.7-2.5-7.8-4.9-15.1-6.7-20.7l-20.7 6.7 6.7 20.7z"></path>
+                            <path fill="#2D333A" d="M264.8 109.8c3.8 1.7 4.1 2.9 1.1 8.6-3.1 5.8-3.8 6.2-7.6 4.7-4.7-2-10.8-3.5-14.7-3.5-6.4 0-10.6 2.3-10.6 5.8 0 11.5 36.6 5.3 36.6 29.7 0 12.3-10.6 20.5-26.4 20.5-8.3 0-18.6-2.8-25.7-6.4-3.5-1.8-3.8-2.8-.7-8.7 2.6-5.1 3.5-5.7 7.3-4.1 6 2.6 13.7 4.7 18.8 4.7 5.8 0 9.7-2.4 9.7-5.8 0-11.1-37.3-5.8-37.3-29.5 0-12.6 10.5-21 26.2-21 7.6-.1 16.9 2.1 23.3 5zM294.4 80.8V172c0 1.4-1.5 2.8-3.5 2.8h-9.6c-2.1 0-3.5-1.5-3.5-2.8V80.8c0-4.5 1.3-4.9 8.3-4.9 8-.1 8.3.5 8.3 4.9zM362.6 132v39.3c0 2.1-1.5 3.5-3.5 3.5h-9.5c-2.2 0-3.7-1.6-3.5-3.8l.1-4.2c-5.1 5.7-12.5 8.7-19.9 8.7-14.3 0-23.9-8.3-23.9-20.6 0-13.1 10.8-22 27.1-22 6.2 0 11.8 1.1 16.4 3v-4.5c0-7.2-5.7-11.5-15.4-11.5-4.5 0-10.1 1.8-14.5 4.4-3.4 1.9-4.2 1.8-7.9-3.7-3.6-5.5-3.5-6.5 0-8.8 6.7-4.3 15.7-7.1 24-7.1 18.7 0 30.5 10.1 30.5 27.3zm-44.2 22.8c0 4.7 4 7.8 9.9 7.8 7.2 0 13.8-3.5 17.6-9.4v-6.1c-3.8-1.5-8.5-2.3-12.6-2.3-9 0-14.9 4.2-14.9 10zM427.6 109.9c3.5 2 3.6 3.1-.2 9-3.6 5.6-4.2 5.9-8.1 4-2.9-1.5-7.6-2.8-11.4-2.8-12 0-20 7.9-20 19.9 0 12.4 8 20.8 20 20.8 4.2 0 9.4-1.6 12.8-3.5 3.5-2 4.2-1.9 7.9 3.5 3.3 5 3.3 6.2.3 8.3-5.4 3.7-13.8 6.5-21.3 6.5-22.2 0-37.1-14.2-37.1-35.6 0-21.2 14.9-35.3 37.3-35.3 6.8 0 14.8 2.3 19.8 5.2zM500.2 166.2c2.8 3.5 1.7 4.8-5.3 7.3-7.1 2.6-8.1 2.4-10.6-.8l-19.9-26.5-8.9 8.6V172c0 1.4-1.5 2.8-3.5 2.8h-9.6c-2.1 0-3.5-1.5-3.5-2.8V80.8c0-4.5 1.3-4.9 8.3-4.9 8.1 0 8.3.6 8.3 4.9v51.8l27.2-26.1c3-2.8 4.7-2.6 10 .9 5.9 3.8 6.3 4.9 3.5 7.6L476 134.8l24.2 31.4z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="v-top tl pt2 fl fr-l dn db-l">
+                    <ul class="list cf">
+                        <li class="fl-l pv2 ph3">
+                            <a href="features.html" class="link f5 black-70 pointer hover-dark-blue">Why Slack?</a>
+                        </li>
+                        <li class="fl-l pv2 ph3">
+                            <a href="pricing.html" class="link f5 black-70 pointer hover-dark-blue">Pricing</a>
+                        </li>
+                        <li class="fl-l pv2 ph3">
+                            <a href="aboutus.html" class="link f5 black-70 pointer hover-dark-blue">About Us</a>
+                        </li>
+                        <li class="fl-l pv2 ph3">
+                            <a href="#" class="link f5 black-70 pointer hover-dark-blue">Find Your Workspace</a>
+                        </li>
+                        <li class="fl-l pv2 ph3">
+                            <a href="#" class="link f5 black-70 pointer pa2 ba b--black-60 br2 hover-dark-blue">Create Workspace</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="v-top tr pt3 fr db dn-l f2 pointer black-70" id="showSideNav">&#9776;</div>
+            </div>
+            <!-- sidebar toggle -->
+            <section class="w-100 absolute z-5 bg-vio white min-vh-100 top-0 right-0 dn overflow-hidden" id="resSideNav">
+                <div class="cf w-100 bb b--white-10 pv2 ph4">
+                    <div class="fl pt2">
+                        <a href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-154 548 32 32" width="31" aria-label="Slack" class="" shape-rendering="geometricPrecision">
+                                <path d="M-135.366 565.288l-3.982 1.334-1.303-3.888 3.982-1.334z"></path>
+                                <path d="M-124.3 559.9c-3.1-10.3-7.6-12.7-17.9-9.6s-12.7 7.6-9.6 17.9c3.1 10.3 7.6 12.7 17.9 9.6s12.7-7.6 9.6-17.9zm-5.2 6.7l-1.9.6.7 2c.3.8-.2 1.7-1 2-.2 0-.4.1-.5.1-.6 0-1.2-.4-1.4-1.1l-.7-2-4 1.3.7 2c.3.8-.2 1.7-1 2-.2 0-.4.1-.5.1-.6 0-1.2-.4-1.4-1.1l-.7-2-1.9.6c-.2 0-.4.1-.5.1-.6 0-1.2-.4-1.4-1.1-.3-.8.2-1.7 1-2l1.9-.6-1.3-3.9-1.9.6c-.2 0-.4.1-.5.1-.6 0-1.2-.4-1.4-1.1-.3-.8.2-1.7 1-2l1.9-.6-.7-2c-.3-.8.2-1.7 1-2 .8-.3 1.7.2 2 1l.7 2 4-1.3-.7-2c-.3-.8.2-1.7 1-2 .8-.3 1.7.2 2 1l.7 2 1.9-.6c.8-.3 1.7.2 2 1 .3.8-.2 1.7-1 2l-1.9.6 1.3 3.9 1.9-.6c.8-.3 1.7.2 2 1-.1.8-.5 1.7-1.4 2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="v-top pt2 fr f2 pointer" id="hideSideNav">&#9760;</div>
+                </div>
+                <div class="w-100 tl pv3 ph4">
+                    <ul class="list">
+                        <li class="tl pv2 mb2">
+                            <a href="#" class="f3 white link">Why Slack?</a>
+                        </li>
+                        <li class="tl pv2 mb2">
+                            <a href="#" class="f3 white link">Pricing</a>
+                        </li>
+                        <li class="tl pv2 mb2">
+                            <a href="#" class="f3 white link">About Us</a>
+                        </li>
+                    </ul>
+                    <div class="dn db-ns">
+                        <a href="#" class="w-100 link pointer pv3 tc db bg-white f3 vio">Download Slack</a>
+                    </div>
+                </div>
+                <div class="relative top-12 ph4">
+                    <ul class="list cf w-100 w-50-l center">
+                        <li class="fl pv2 w-80 w-40-ns tc tr-ns">
+                            <a href="#" class="f5 white link">Find Your Workspace</a>
+                        </li>
+                        <li class="fl w-20 pv2 tc fw6">|</li>
+                        <li class="fl pv2 w-80 w-40-ns tc tl-ns">
+                            <a href="#" class="f5 white link">Create Workspace</a>
+                        </li>
+                    </ul>
+                    <div class="db dn-ns">
+                        <a href="#" class="w-100 link pointer pv3 tc db bg-white f3 vio db dn-ns">Download Slack</a>
+                    </div>
+                </div>
+            </section>
+            <!-- end sidebar toggle -->
+        </header>
+        <!--end main header-->
+        <section class="w-100">
+            <div class="w-100 pv4">
+                <!-- first article -->
+                <article class="w-100 tc pv4 cf">
+                    <div class="w-100 w-45-l fl tl ph3 ph4-ns v-top pb3 pb0-l">
+                        <h2 class="f2 f1-ns lh-solid fw4 ma0 black-80 baskerville mv4">The collaboration hub that moves work forward</h2>
+                        <div>
+                            <input type="email" placeholder="Email address" name="getStarted" id="getStarted" class="pa3 w-100 w-60-ns br2 ba b--black-10 black-70">
+                            <input type="submit" value="GET STARTED" class="w-100 w-30-ns bg-vio white br2 bn fw6 f6 pa3 mt3 mt0-ns pointer hover-bg-dark-blue">
+                        </div>
+                    </div>
+                    <div class="w-100 w-55-l fl ph2 ph4-ns overflow-x-hidden pt3 pt0-l">
+                        <img src="img/devices.png" alt="home_illo" class="mw8-l">
+                    </div>
+                </article>
+                <!-- second article -->
+                <article class="w-100 tc pv5 ph3 ph4-ns bb b--black-05">
+                    <div class="w-100 w-60-l center">
+                        <h3 class="f3 f2-ns fw5 baskerville black-80 tl tc-ns lh-title">Slack brings all your communication together</h3>
+                        <p class="f5 f4-ns black-70 mt3 fw5 black-60 tl tc-ns">Teamwork in Slack happens in channels — a single place for messaging, tools and files — helping everyone
+                            save time and collaborate together.</p>
+                    </div>
+                    <div class="w-100 cf">
+                        <div class="w-100 w-80-ns cf fl pv2 ml6 dn db-l mb3">
+                            <div class="w-100 w-33-l h4 pt4 pt3-ns fl pointer hover-dark-blue ml2 tabActive">
+                                <img src="img/organized-convos.png" alt="airnb">
+                                <p class="fw6 f5">Organized conversations</p>
+                            </div>
+                            <div class="w-100 w-33-l h4 pt4 pt3-ns fl pointer hover-dark-blue mb4">
+                                <img src="img/search-binoculars.png" alt="capital">
+                                <p class="fw6 f5">Searchable history</p>
+                            </div>
+                            <div class="w-100 w-33-l h4 pt2 fl pointer hover-dark-blue">
+                                <img src="img/security-lock.png" alt="target">
+                                <p class="fw6 f5">Your tools and services</p>
+                            </div>
+                        </div>
+                        <div class="w-100 cf fl pv2">
+                            <div class="w-100 w-55-l fl pt3 pt0-l">
+                                <img src="img/slack_integrations.gif" alt="home_illo">
+                            </div>
+                            <div class="w-100 w-45-l fl tl ph2 ph4-ns v-top pb3 pb0-l">
+                                <h2 class="f4 f3-ns lh-solid fw5 black-80 baskerville mt4 mt0-l mb4 dn db-ns">Channels bring conversations (and people) together</h2>
+                                <h2 class="f4 lh-solid fw6 black-90 baskerville mt4 mb3 db dn-ns">Organized conversations</h2>
+                                <ul class="ml3">
+                                    <li class="mb3 f5 black-80 lh-copy">
+                                        Channels can be divvied up by team, project, client, or whatever else is relevant to your organization.
+                                    </li>
+                                    <li class="mb3 f5 black-80 lh-copy">
+                                        Team members can join and leave channels as needed — unlike lengthy email chains.
+                                    </li>
+                                    <li class="f5 black-80 lh-copy">
+                                        Threads keep side conversations from derailin z=g the topic or project at hand.
+                                    </li>
+                                </ul>
+                                <blockquote class="pa0 pt3 black-80 ma0 mv3 bt b--black-05">
+                                    <em class="f6">
+                                        “Hundreds of people are contributing across the world with many stakeholders who need to stay informed. The ease of communication
+                                        that Slack provides helps support the teams that are delivering value at this pace
+                                        and scale.”
+                                    </em>
+                                </blockquote>
+                                <h4 class="black-60 f6">Sherry Taylor, Executive Director, Technology at Ticketmaster</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 pt5 pb3-ns ph3 ph5-l tc cf">
+                        <div class="w-100 w-33-l mb3 mv4-l pt3-ns ph3 tl fl">
+                            <img src="img/collab-people.png" alt="airnb">
+                            <p class="fw6 f5 black-80 ma0 mv2">Collaboration beyond colleagues</p>
+                            <p class="black-70 lh-copy">
+                                Share channels with companies and businesses you regularly work with – like clients, vendors, and partners – to bring all
+                                the right people into the same room.
+                            </p>
+                        </div>
+                        <div class="w-100 w-33-l mv3 pt3-ns ph3 tl fl">
+                            <img src="img/face-to-face.png" alt="capital">
+                            <p class="fw6 f5 black-80 ma0 mv2">Face-to-face and -screen</p>
+                            <p class="black-70 lh-copy">
+                                Talk it out over voice or video calls directly from Slack. And if you need to show your work, you can share your screen,
+                                too.
+                            </p>
+                        </div>
+                        <div class="w-100 w-33-l mv3 pt3-ns ph3 tl fl">
+                            <img src="img/file-sharing.png" alt="target">
+                            <p class="fw6 f5 black-80 ma0 mv2">Integrated file sharing</p>
+                            <p class="black-70 lh-copy">
+                                Drag-and-drop PDFs, images, videos and other files directly into Slack. Get feedback on your work and create an archive of
+                                your progress.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- third article -->
+                <article class="w-100 tc pv5 ph3 ph4-ns bb b--black-05 bg-black-05">
+                    <div class=" w-100 w-60-l center">
+                        <h3 class="f3 f2-ns fw5 baskerville black-80 tl tc-ns lh-title">Streamline your work with integrated tools</h3>
+                        <p class="f5 f4-ns black-70 mt3 fw5 black-60 tl tc-ns">In Slack, tools and services work in the same place as your team. Information leaves siloed inboxes
+                            and flows into shared team channels.</p>
+                    </div>
+                    <div class="w-100 cf pv2">
+                        <div class="w-100 w-55-l fl pt3 pt0-l">
+                            <img src="img/slack_integrations.gif" alt="home_illo">
+                        </div>
+                        <div class="w-100 w-45-l fl tl ph3 ph4-ns mt3 mt0-l v-top pb3 pb0-l">
+                            <div>
+                                <h3 class="f5 fw5 black-80 lh-title">Connect your tools with Slack</h3>
+                                <p class="f5 black-60 lh-copy ma0">
+                                    The Slack App Directory has over 1,000 apps you can integrate into Slack. Spend less time juggling tabs and more time focusing
+                                    on meaningful work.
+                                </p>
+                            </div>
+                            <div class="w-100 w-60-l mv4">
+                                <img src="img/gdrive2x.png" alt="google drive" class="w2 mr3">
+                                <img src="img/dropbox_alt2x.png" alt="dropbox" class="w2 mr3">
+                                <img src="img/asana2x.png" alt="asana" class="w2 mr3">
+                                <img src="img/zoom_alt2x.png" alt="zoom" class="w2 mr3">
+                                <img src="img/trello2x.png" alt="trello" class="w2 mr3">
+                                <img src="img/salesforce2x.png" alt="salesforce" class="w2 mr3">
+                                <img src="img/github2x.png" alt="github" class="w2 mr3">
+                                <img src="img/jira_alt2x.png" alt="jira" class="w2 mr3">
+                                <img src="img/marketo2x.png" alt="marketo" class="w2 mr3">
+                                <img src="img/zendesk_alt2x.png" alt="zendex" class="w2">
+                            </div>
+                            <div>
+                                <h3 class="f5 fw5 black-80 lh-title">Or build your own with our APIs</h3>
+                                <p class="f5 black-60 lh-copy">
+                                    Get even more from the tools you rely on. Configure Slack for your team’s unique needs and technology with the Slack API.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- fourth article -->
+                <article class="w-100 tc pv5 ph3 ph4-ns">
+                    <div class="w-100 cf">
+                        <div class="w-100 w-45-l fr tl ph3 ph4-ns mt3 mt-l v-top pb3 pb0-l">
+                            <h3 class="f3 f2-ns fw5 baskerville black-80 tl tc-ns lh-title">Keep your data secure</h3>
+                            <p class="f5 black-60 lh-copy mv3">
+                                We use Slack to run Slack, so we protect your data as if it were our own. We work with customers every day to make sure their
+                                data security requirements and expectations are met or exceeded.
+                            </p>
+                            <a href="#" class="link f5 bb b--blue">Learn more about security</a>
+                        </div>
+                        <div class="w-100 w-55-l fl pt3 pt0-l">
+                            <img src="img/slack_integrations.gif" alt="home_illo">
+                        </div>
+                    </div>
+                </article>
+                <!-- fifth article -->
+                <article class="w-100 tc pv5 ph3 ph4-ns">
+                    <div class="w-100">
+                        <h3 class="f3 f2-ns fw5 baskerville black-80 tl tc-ns pb4 lh-title">Companies that collaborate in Slack</h3>
+                        <div class="pv2  overflow-x-scroll">
+                            <ul class="list cf flex flex-nowrap picSlides">
+                                <li>
+                                    <a href="#" class="link">
+                                        <img src="img/airbnb.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/asana2x.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/avatar-female-08.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/avatar-female-09.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/avatar-male-08.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/avatar-male-09.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/devices.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/home_illo.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/collab-people.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/capital_one.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/jira_alt2x.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/marketo2x.png" alt="">
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <!-- sixth article -->
+                <article class="w-100 tc pv6 ph3 bg-vio ph4-ns">
+                    <div class="w-100 cf">
+                        <div class="w-100 w-50-l center">
+                            <h3 class="f3 f2-ns fw5 baskerville white tc mb4 lh-title">Try Slack with your team for free</h3>
+                            <div class="w-100 w-80-ns center">
+                                <input type="email" placeholder="Email address" name="getStarted" id="getStarted" class="pa3 w-100 w-60-ns br2 ba b--black-10 black-70">
+                                <input type="submit" value="GET STARTED" class="w-100 w-30-ns vio bg-white br2 bn fw6 f6 pa3 mt3 mt0-ns">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--end main section -->
+        <footer class="w-100">
+            <article class="w-100 cf pv5 ph5-l">
+                <div class="w-100 w-20-m w-30-l fl">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-101 331 132 132" width="54" height="54" aria-label="Slack" class="w4" shape-rendering="geometricPrecision">
+                            <path d="M-16.7 343.1c-1.9-5.7-8-8.8-13.7-7-5.7 1.9-8.8 8-7 13.7l28.1 86.4c1.9 5.3 7.7 8.3 13.2 6.7 5.8-1.7 9.3-7.8 7.4-13.4 0-.2-28-86.4-28-86.4z"
+                                fill="#ECB32D"></path>
+                            <path d="M-60.2 357.2c-1.9-5.7-8-8.8-13.7-7-5.7 1.9-8.8 8-7 13.7l28.1 86.4c1.9 5.3 7.7 8.3 13.2 6.7 5.8-1.7 9.3-7.8 7.4-13.4 0-.2-28-86.4-28-86.4z"
+                                fill="#63C1A0"></path>
+                            <path d="M18.7 414.6c5.7-1.9 8.8-8 7-13.7-1.9-5.7-8-8.8-13.7-7l-86.5 28.2c-5.3 1.9-8.3 7.7-6.7 13.2 1.7 5.8 7.8 9.3 13.4 7.4.2 0 86.5-28.1 86.5-28.1z"
+                                fill="#E01A59"></path>
+                            <path d="M-56.5 439.1c5.6-1.8 12.9-4.2 20.7-6.7-1.8-5.6-4.2-12.9-6.7-20.7l-20.7 6.7 6.7 20.7z" fill="#331433"></path>
+                            <path d="M-12.9 424.9c7.8-2.5 15.1-4.9 20.7-6.7-1.8-5.6-4.2-12.9-6.7-20.7l-20.7 6.7 6.7 20.7z" fill="#D62027"></path>
+                            <path d="M4.5 371.1c5.7-1.9 8.8-8 7-13.7-1.9-5.7-8-8.8-13.7-7l-86.4 28.1c-5.3 1.9-8.3 7.7-6.7 13.2 1.7 5.8 7.8 9.3 13.4 7.4.2 0 86.4-28 86.4-28z"
+                                fill="#89D3DF"></path>
+                            <path d="M-70.6 395.5c5.6-1.8 12.9-4.2 20.7-6.7-2.5-7.8-4.9-15.1-6.7-20.7l-20.7 6.7 6.7 20.7z" fill="#258B74"></path>
+                            <path d="M-27.1 381.4c7.8-2.5 15.1-4.9 20.7-6.7-2.5-7.8-4.9-15.1-6.7-20.7l-20.7 6.7 6.7 20.7z" fill="#819C3C"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="w-100 w-80-m w-70-l ph4 fl cf">
+                    <div class="w-100 w-50-ns fl cf pl1">
+                        <ul class="w-50 fl list">
+                            <li class="f5 f6-ns fw6 black-60 pv1">COMPANY</li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">About Us</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Careers</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Blog</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Press</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Brand Guidelines</a>
+                            </li>
+                        </ul>
+                        <ul class="w-50 fl list pl1">
+                            <li class="f5 f6-ns fw6 black-60 pv1">PRODUCT</li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Why Slack?</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Enterprise</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Customer Stories</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Pricing</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Security</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-100 w-50-ns fl cf pl1 pt4 pt0-ns">
+                        <ul class="w-50 fl list">
+                            <li class="f5 f6-ns fw6 black-60 pv1">RESOURCES</li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Download</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Help Center</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Guides</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Partners</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Events</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">App Directory</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">API</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Gartner Report</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70">eBooks</a>
+                            </li>
+                        </ul>
+                        <ul class="w-50 fl list pl1">
+                            <li class="f5 f6-ns fw6 black-60 pv1">EXTRAS</li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Podcast</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Slack Shop</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Slack at Work</a>
+                            </li>
+                            <li class="pv1">
+                                <a href="#" class="link f5 f6-ns black-70 hover-dark-blue">Slack Fund</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <div class="w-100 pv3 ph4 bg-black-05 cf">
+                <div class="w-100 w-60-ns w-75-l fl">
+                    <ul class="list cf">
+                        <li class="fl pv2 ph2">
+                            <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue">Status</a>
+                        </li>
+                        <li class="fl pv2 ph2">
+                            <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue">Privacy &amp; Terms</a>
+                        </li>
+                        <li class="fl pv2 ph2">
+                            <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fl">
+                    <ul class="list cf tc">
+                        <li class="fl-l pv2 ph2 mr4 f5 f6-ns fw6 black-60 hover-dark-blue pointer relative" id="disLangOptions">
+                            English (US)
+                            <i class="fas fa-chevron-down fa-lg pl2 black-50 pointer"></i>
+                            <ul class="dn absolute w5 bg-white list tl bottom-4 right-1 z-1 pa3 ba b--black-10" id="langOptions">
+                                <li class="mb2">
+                                    <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue hover-bg-black-10 br2 db pa1 ph3">Deutsch</a>
+                                </li>
+                                <li class="mb2">
+                                    <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue hover-bg-black-10 br2 db pa1 ph3 langActive">English (US)
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-255 347 100 100" width="20" height="20" class="fr mt2" shape-rendering="geometricPrecision">
+                                            <path d="M-217.1 431.8c-1 1.2-2.6 2.2-4 2.3-1.4.1-3-.8-4.3-1.9l-27.5-24.5 7.8-8.7 23.2 20.6 54.6-61.7 8.6 7.9-58.4 66z" fill="#3F46AD"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="mb2">
+                                    <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue hover-bg-black-10 br2 db pa1 ph3">Espanol</a>
+                                </li>
+                                <li class="mb2">
+                                    <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue hover-bg-black-10 br2 db pa1 ph3">Francais</a>
+                                </li>
+                                <li class="mb2">
+                                    <a href="#" class="link f5 f6-ns fw6 black-60 hover-dark-blue hover-bg-black-10 br2 db pa1 ph3">Japanese</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fl ">
+                    <ul class="list cf">
+                        <li class="fl pv2 ph2">
+                            <a href="#" class="link fw6 black-60 hover-dark-blue">
+                                <svg version="1" viewBox="0 0 32 32" class="w1" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.993 6.077c-1.177.523-2.44.876-3.77 1.033 1.355-.812 2.396-2.098 2.887-3.63-1.27.75-2.673 1.3-4.168 1.592C25.744 3.797 24.038 3 22.15 3c-3.626 0-6.563 2.938-6.563 6.563 0 .514.057 1.016.17 1.496C10.3 10.783 5.464 8.17 2.227 4.2c-.565.97-.89 2.098-.89 3.3 0 2.28 1.16 4.287 2.92 5.465-1.076-.035-2.088-.33-2.973-.82v.08c0 3.182 2.26 5.835 5.264 6.438-.55.15-1.13.23-1.73.23-.423 0-.833-.04-1.233-.117.834 2.606 3.26 4.504 6.13 4.558-2.245 1.76-5.075 2.81-8.15 2.81-.53 0-1.053-.03-1.566-.09C2.905 27.914 6.355 29 10.062 29c12.072 0 18.675-10 18.675-18.675 0-.284-.008-.568-.02-.85 1.283-.925 2.395-2.08 3.276-3.398z"
+                                    />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="fl pv2 ph2">
+                            <a href="#" class="link fw6 black-60 hover-dark-blue">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w2" viewBox="126.445 2.281 589 589">
+                                    <path d="M516.704 92.677h-65.24c-38.714 0-81.776 16.283-81.776 72.402.19 19.553 0 38.28 0 59.356H324.9v71.27h46.174v205.178h84.847v-206.53h56.003l5.067-70.118h-62.53s.14-31.19 0-40.25c0-22.176 23.075-20.906 24.463-20.906 10.98 0 32.332.032 37.813 0V92.677h-.032z"
+                                    />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="fl pv2 ph2">
+                            <a href="#" class="link fw6 black-60 hover-dark-blue">
+                                <svg version="1" viewBox="0 0 32 32" class="w1" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.67 9.18s-.312-2.354-1.27-3.39c-1.218-1.358-2.58-1.366-3.206-1.443C22.717 4 16.002 4 16.002 4h-.015s-6.715 0-11.19.347c-.626.077-1.988.085-3.206 1.443C.635 6.826.32 9.18.32 9.18S0 11.94 0 14.7v2.59c0 2.762.32 5.522.32 5.522s.312 2.352 1.27 3.386c1.22 1.358 2.816 1.317 3.528 1.46 2.56.26 10.877.342 10.877.342s6.722-.012 11.2-.355c.624-.08 1.987-.088 3.204-1.446.956-1.036 1.27-3.388 1.27-3.388s.32-2.76.32-5.523V14.7c0-2.76-.32-5.522-.32-5.522z"
+                                    />
+                                    <path fill="#FFF" d="M12 10v12l10-6" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!--end main footer-->
+    </main>
+    <script src="js/main.js"></script>
+    <script>
+        window.onload = init();
+    </script>
+</body>
+
+</html>
