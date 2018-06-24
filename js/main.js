@@ -29,12 +29,12 @@ function init() {
       (document.body.scrollTop > 50 && document.body.scrollTop < 900)
     ) {
       disHeader.style.display = "none";
-      if (
-        document.documentElement.scrollTop > 1000 ||
-        document.body.scrollTop > 1000
-      ) {
-        disHeader.style.display = "block";
-      }
+      // if (
+      //   document.documentElement.scrollTop > 1000 ||
+      //   document.body.scrollTop > 1000
+      // ) {
+      //   disHeader.style.display = "block";
+      // }
     } else {
       disHeader.style.display = "block";
     }
